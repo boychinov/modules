@@ -18,7 +18,7 @@ A lightweight Python class for converting Excel or CSV data into SQL `CREATE TAB
 ## Usage
 
 
--Python
+--Python--
 
 from sql_helper import SQLHelper
 
@@ -36,7 +36,7 @@ helper.export_insert_statements_sql(column_types)
 
 
 
--Output
+--Output--
 
 Two .sql files will be created in the current directory:
 
@@ -46,7 +46,7 @@ Two .sql files will be created in the current directory:
 
 
 
--Requirements
+--Requirements--
 
 •	Python 3.x
 
