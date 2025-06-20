@@ -42,6 +42,7 @@ helper.export_insert_statements_sql(column_types)
 -Output
 
 Two .sql files will be created in the current directory:
+
 •	create_table.sql
 •	insert_statements.sql
 
