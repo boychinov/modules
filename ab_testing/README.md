@@ -1,9 +1,8 @@
-# ABTester 📊
+# ABTester 
 
 A Python class for conducting professional A/B testing with numerical and categorical data.\
 Supports normality testing, variance checks, t-tests, non-parametric tests, and chi-square tests — all in one streamlined and modular class.
 
----
 
 ##  Features
 
@@ -18,9 +17,8 @@ Supports normality testing, variance checks, t-tests, non-parametric tests, and 
 - ✅ Smart auto-detection of test type and hypothesis direction
 - ✅ Neatly formatted test results using `tabulate`
 
----
 
-## 📦 Installation
+##  Installation
 
 Install required dependencies:
 
@@ -28,7 +26,6 @@ Install required dependencies:
 pip install pandas scipy tabulate openpyxl
 ```
 
----
 
 ## Quick Start
 
@@ -46,8 +43,6 @@ ab.assign_groups(group_col='variant', label_a='A', label_b='B')
 # Run significance test
 ab.is_ab_test_significant()
 ```
-
----
 
 ##  Available Methods
 
@@ -99,7 +94,6 @@ Run full pipeline (normality → variance → proper test) and print summary.
 
 Automatically selects numeric or categorical test based on data type.
 
----
 
 ## 📊 Example Output
 
