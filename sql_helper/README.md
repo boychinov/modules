@@ -24,10 +24,10 @@ pip install pandas openpyxl
 ##  Quick Start
 
 ```python
-from sql_helper import SQLHelper
+from sql import SQLHelper
 
 helper = SQLHelper("my_table")
-df = helper.load_data("data.xlsx")
+helper.load_data("data.xlsx")
 column_types = helper.detect_column_types()
 
 # Export CREATE TABLE

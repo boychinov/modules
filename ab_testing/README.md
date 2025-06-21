@@ -30,7 +30,7 @@ pip install pandas scipy tabulate openpyxl
 ## Quick Start
 
 ```python
-from ab_tester import ABTester
+from ab_testing import ABTester
 
 ab = ABTester()
 
