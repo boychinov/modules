@@ -26,14 +26,23 @@ pip install pandas openpyxl
 ```python
 from sql import SQLHelper
 
+# Initialize the helper with the name of the SQL table you want to generate
 helper = SQLHelper("my_table")
+
+# Load data from an Excel or CSV file (Excel by default)
+# Automatically fills missing values with NULL
 helper.load_data("data.xlsx")
+
+# Detect column data types from sample values
+# Possible types: 'string', 'integer', 'float', 'date'
 column_types = helper.detect_column_types()
 
-# Export CREATE TABLE
+# Export CREATE TABLE SQL statement to a file
+# Adds ID INT IDENTITY(1,1) PRIMARY KEY by default
 helper.export_create_table_sql(column_types)
 
-# Export INSERT statements
+# Export INSERT INTO statements row-by-row to a file
+# Handles formatting and SQL escaping internally
 helper.export_insert_statements_sql(column_types)
 ```
 
