@@ -12,7 +12,6 @@ A lightweight Python class to convert Excel or CSV datasets into SQL `CREATE TAB
 - ✅ Export SQL files for both schema and data
 - ✅ Supports null handling and SQL-safe string formatting
 
----
 
 ##  Installation
 
