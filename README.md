@@ -1,6 +1,6 @@
 #  Python Modules Collection
 
-This repository contains modular, reusable Python classes and utilities for data processing, cleaning, analysis, and experimentation. Each module is self-contained, professionally documented, and suitable for production use.
+Modular Python tools for data scientists and engineers. Each module covers a specific task like cleaning data, running A/B tests, or generating SQL — all with clean code and clear docs.
 
 
 
