@@ -1,0 +1,45 @@
+# 🧠 Python Modules Collection
+
+This repository contains modular, reusable Python classes and utilities for data processing, cleaning, analysis, and experimentation. Each module is self-contained, professionally documented, and suitable for production use.
+
+---
+
+## 📦 Modules
+
+| Module         | Description |
+|----------------|-------------|
+| [`data_cleaner`](./data_cleaner) | A robust DataFrame cleaning and preprocessing class for pandas. Supports missing value handling, outlier detection, formatting, type conversion, and more. |
+| [`ab_testing`](./ab_testing)     | A statistical AB testing toolkit to evaluate and compare experimental groups using t-tests, chi-square tests, and non-parametric tests. |
+| [`sql_helper`](./sql_helper)     | Converts Excel or CSV data into SQL `CREATE TABLE` and `INSERT` statements. Useful for database seeding and ETL automation. |
+
+
+##  Quick Start
+
+Each module contains its own `README.md` file with installation steps, usage examples, and sample outputs.
+
+To get started:
+
+```bash
+git clone https://github.com/boychinov/modules.git
+cd modules/data_cleaner  # or ab_testing / sql_helper
+```
+
+##  Folder Structure
+
+```bash
+modules/
+│
+├── data_cleaner/      # Data preprocessing tools
+│   └── README.md
+│
+├── ab_testing/        # AB test framework
+│   └── README.md
+│   └── quick_start_guide.md
+│   
+├── sql_helper/        # SQL statement generator
+│   └── README.md
+│
+└── README.md          # <-- You are here
+```
+
+
