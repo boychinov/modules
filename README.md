@@ -15,7 +15,7 @@ Modular Python tools for data scientists and engineers. Each module covers a spe
 
 ##  Quick Start
 
-Each module contains its own `README.md` file with installation steps, usage examples, and sample outputs.
+Each module includes a README.md file with usage instructions, key method references, and example outputs to help you get started quickly.
 
 To get started:
 
