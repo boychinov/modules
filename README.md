@@ -29,17 +29,17 @@ cd modules/data_cleaner  # or ab_testing / sql_helper
 ```bash
 modules/
 │
-├── data_cleaner/              # Data preprocessing tools
+├── data_cleaner/                 # Data preprocessing tools
 │   └── README.md
 │
-├── ab_testing/                # AB test framework
+├── ab_testing/                   # AB test framework
 │   └── README.md
 │   └── quick_start_guide.md
 │   
-├── sql_helper/                # SQL statement generator
+├── sql_helper/                   # SQL statement generator
 │   └── README.md
 │
-└── README.md                  # <-- You are here
+└── README.md                     # <-- You are here
 ```
 
 
