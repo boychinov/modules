@@ -3,16 +3,16 @@
 `DataCleaner` is a lightweight and chainable Python class for preprocessing and cleaning pandas DataFrames. It includes utilities for handling missing values, standardizing column names, formatting values, detecting and transforming data types, and exporting cleaned data.
 
 ## Features
-- ✅Missing value imputation (mean/median/mode/constant)
-- ✅Detection of numeric or string columns with missing values
-- ✅Winsorization and outlier detection
-- ✅Standardization of column names and string formats
-- ✅Boolean and binary conversion
-- ✅Value casing (lower/upper/capitalize)
-- ✅Duplicate and null threshold removal
-- ✅Date parsing and conversion
-- ✅Export to Excel or CSV
-- ✅Pipeline support for chaining methods
+- ✅ Missing value imputation (mean/median/mode/constant)
+- ✅ Detection of numeric or string columns with missing values
+- ✅ Winsorization and outlier detection
+- ✅ Standardization of column names and string formats
+- ✅ Boolean and binary conversion
+- ✅ Value casing (lower/upper/capitalize)
+- ✅ Duplicate and null threshold removal
+- ✅ Date parsing and conversion
+- ✅ Export to Excel or CSV
+- ✅ Pipeline support for chaining methods
 
 ##  Installation
 
